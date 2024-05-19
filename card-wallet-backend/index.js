@@ -16,7 +16,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://amjadbary12:PVxY9VsrrFrkz5OI@sss.khpz64g.mongodb.net/', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('MongoDB_URI', { useNewUrlParser: true, useUnifiedTopology: true });
 
 const ENCRYPTION_KEY = process.env.ENCRYPTION_KEY;
 
